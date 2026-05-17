@@ -7,12 +7,12 @@ module.exports = {
   solidity: "0.8.20",
   networks: {
     bsc: {
-      url: "https://bsc.publicnode.com",
+      url: "https://bsc.rpc.blxrbdn.com",
       chainId: 56,
       accounts: [PRIVATE_KEY]
     },
     bsctest: {
-      url: "https://bsc-testnet.publicnode.com",
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
       chainId: 97,
       accounts: [PRIVATE_KEY]
     }
