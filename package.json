@@ -1,0 +1,27 @@
+{
+  "name": "flame-project",
+  "version": "1.0.0",
+  "description": "Flame - 区块链挖矿项目",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8081",
+    "compile": "npx hardhat compile",
+    "deploy:testnet": "npx hardhat run scripts/deploy.js --network bsctest",
+    "deploy:mainnet": "npx hardhat run scripts/deploy.js --network bsc"
+  },
+  "keywords": [
+    "blockchain",
+    "bnb",
+    "mining"
+  ],
+  "author": "Flame Team",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^17.4.2",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0"
+  }
+}
